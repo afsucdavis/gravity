@@ -1,0 +1,250 @@
+*					{
+					padding: 0px;
+					margin: 0px;
+					}
+
+body					{
+					background-color: #fff;
+					font-family: verdana, arial, sans-serif;
+					}
+
+div.logoArea				{
+					display: block;
+					background-color: #fff;
+					width: 85%;
+					min-width: 770px;
+					margin: 5px auto 0px auto;
+					border-right: 2px solid #B5B89B;
+					}
+img.sparkImage				{
+					float: right;
+					margin: 4px 10px 0px 0px;
+					}
+img.logo				{
+					margin: 4px 0px 0px 18px;
+					}
+
+div.pageArea				{
+					display: block;
+					background-color: #fff;
+					background-image: url("images/bg-pagefade.gif");
+					background-repeat: repeat-x;
+					width: 85%;
+					min-width: 770px;
+					margin: 0px auto;
+					border-right: 2px solid #B5B89B;
+					border-bottom: 2px solid #B5B89B;
+					}
+div.reflectionArea			{
+					display: block;
+					background-color: transparent;
+					background-image: url("images/bg-reflection.gif");
+					background-repeat: no-repeat;
+					background-position: 15px 0px;
+					padding: 45px 0px 0px 0px;
+					}
+
+
+div.leftCorner				{
+					display: block;
+					background-image: url("images/leftcorner.gif");
+					background-repeat: no-repeat;
+					background-color: #fff;
+					margin: 0px auto 0px auto;
+					padding: 0px 0px 30px 0px;
+					width: 90%;
+					font-size: 0.8em;
+					}
+div.contentArea				{
+					display: block;
+					background-color: transparent;
+					margin: 19px 0px 0px 0px;
+					padding: 0px 0px 30px 20px;
+					float: left;
+					width: 95%;
+					}
+
+
+div.topLink				{
+					display: block;
+					background-color: transparent;
+					font-size: 0.7em;
+					text-align: right;
+					padding: 15px 5px 5px 0px;
+					}
+div.topLink a				{
+					text-decoration: none;
+					}
+div.topLink a:hover			{
+					text-decoration: underline;
+					}
+div.footerText				{
+					display: block;
+					background-color: transparent;
+					width: 85%;
+					min-width: 770px;
+					margin: 0px auto;
+					font-size: 0.7em;
+					font-weight: bold;
+					padding: 2px 0px 30px 2px;
+					}
+
+
+
+
+input					{
+					border: 1px solid #000;
+					background-color: #fff;
+					}
+
+p					{
+					display: block;
+					padding: 0px 0px 1.4em 0px;
+					}
+
+a					{
+					color: #DB3B0A;
+					text-decoration: underline;
+					}
+a:hover					{
+					color: #812C96;
+					}
+
+h1					{
+					display: block;
+					font-size: 2em;
+					font-weight: normal;
+					padding: 0px 0px 0.65em 0px;
+					color: blue
+					}
+h2					{
+					display: block;
+					font-size: 1.6em;
+					font-weight: normal;
+					padding: 0.8em 0px 0.7em 0px;
+					color: blue
+					}
+
+h3					{
+					display: block;
+					font-size: 1.3em;
+					font-weight: normal;
+					padding: 0.8em 0px 0.4em 0px;
+					color: blue
+					}
+
+.small					{
+					font-size: 0.85em;
+					line-height: 1.3em;
+					}
+.italic					{
+					font-style: italic;
+					}
+
+
+
+
+div.clear				{
+					display: block;
+					background-color: transparent;
+					font-size: 1px;
+					clear: both;
+					}
+
+
+.box					{
+					border: 2px solid #0000ff;
+					padding: 5px 10px 5px 10px;
+					margin: 1.4em 0px 1.4px 0px;
+					}
+
+.box	h2				{
+					padding: 0px;
+					margin: 0px;
+					}
+
+button#startbutton                     {
+                                        border:0px solid #007aa7; /*border color dark blue */
+                                        background:#f9a03e; /*the color of the button is blue */
+                                        padding:5px 15px; /*add padding inside of the button*/
+                                        -moz-border-radius: 5px; /* add rounded corners */
+                                        -webkit-border-radius: 5px;
+                                        border-radius: 5px;
+                                        -webkit-box-shadow: 0 0 4px rgba(0,0,0, .75); /* add drop shadows */
+                                        -moz-box-shadow: 0 0 4px rgba(0,0,0, .75);
+                                        box-shadow: 0 0 4px rgba(0,0,0, .75);
+                                        color:#f3f3f3; /* text color is white */
+                                        font-size:1em; /* font size is 1em */
+                                        cursor:pointer; /* change cursor when hover */
+                                        position:relative;left:50px;
+                                        }
+
+button#startbutton:hover, input#submitbutton:focus 
+                                        {
+                                        background-color :#f9a03e; /* the background a little darker*/
+                                        -webkit-box-shadow: 0 0 1px rgba(0,0,0, .75); /* drop shadow is narrower to give a pushed effect */
+                                        -moz-box-shadow: 0 0 1px rgba(0,0,0, .75);
+                                        box-shadow: 0 0 1px rgba(0,0,0, .75);
+                                        }
+
+button#pausebutton                     {
+                                        border:0px solid #f9a03e; /*border color dark blue */
+                                        background:#f9a03e; /*the color of the button is blue */
+                                        padding:5px 15px; /*add padding inside of the button*/
+                                        -moz-border-radius: 5px; /* add rounded corners */
+                                        -webkit-border-radius: 5px;
+                                        border-radius: 5px;
+                                        -webkit-box-shadow: 0 0 4px rgba(0,0,0, .75); /* add drop shadows */
+                                        -moz-box-shadow: 0 0 4px rgba(0,0,0, .75);
+                                        box-shadow: 0 0 4px rgba(0,0,0, .75);
+                                        color:#f3f3f3; /* text color is white */
+                                        font-size:1em; /* font size is 1em */
+                                        cursor:pointer; /* change cursor when hover */
+                                        position:relative;left:200px;
+                                        }
+
+button#pausebutton:hover, input#submitbutton:focus 
+                                        {
+                                        background-color :#0090c6; /* the background a little darker*/
+                                        -webkit-box-shadow: 0 0 1px rgba(0,0,0, .75); /* drop shadow is narrower to give a pushed effect */
+                                        -moz-box-shadow: 0 0 1px rgba(0,0,0, .75);
+                                        box-shadow: 0 0 1px rgba(0,0,0, .75);
+                                        }
+
+button#resetbutton                     {
+                                        border:0px solid #007aa7; /*border color dark blue */
+                                        background:#f9a03e; /*the color of the button is blue */
+                                        padding:5px 15px; /*add padding inside of the button*/
+                                        -moz-border-radius: 5px; /* add rounded corners */
+                                        -webkit-border-radius: 5px;
+                                        border-radius: 5px;
+                                        -webkit-box-shadow: 0 0 4px rgba(0,0,0, .75); /* add drop shadows */
+                                        -moz-box-shadow: 0 0 4px rgba(0,0,0, .75);
+                                        box-shadow: 0 0 4px rgba(0,0,0, .75);
+                                        color:#f3f3f3; /* text color is white */
+                                        font-size:1em; /* font size is 1em */
+                                        cursor:pointer; /* change cursor when hover */
+                                        position:relative;left:350px;
+                                        }
+
+button#resetbutton:hover, input#submitbutton:focus 
+                                        {
+                                        background-color :#f9a03e; /* the background a little darker*/
+                                        -webkit-box-shadow: 0 0 1px rgba(0,0,0, .75); /* drop shadow is narrower to give a pushed effect */
+                                        -moz-box-shadow: 0 0 1px rgba(0,0,0, .75);
+                                        box-shadow: 0 0 1px rgba(0,0,0, .75);
+                                        }
+
+
+div.breadcrumbsArea			{
+					display: block;
+					background-color: transparent;
+					margin: 0px auto 10px auto;
+					width: 90%;
+					text-transform: uppercase;
+					font-size: 0.6em;
+					}
+
+div.breadcrumbsArea a			{
+					text-decoration: none;
+					}
